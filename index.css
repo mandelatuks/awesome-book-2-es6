@@ -155,12 +155,15 @@ hr {
   justify-content: center;
   align-items: center;
 }
-.book{
+
+.book {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 10px;
+
 }
+
 .contact-list > ul {
   font-size: 18px;
   list-style: none;

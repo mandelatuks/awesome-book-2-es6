@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin-left: 40px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-items li {
+  list-style: none;
+}
+
+.nav-items a {
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  color: #000;
+}
+
+.time {
+  float: right;
+  margin-right: 5%;
+  font-weight: bold;
+}
+
+.new-book {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid black;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 10px 20px;
+}
+
+hr {
+  width: 140px;
+  height: 2px;
+  background-color: #000;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+}
+
+.book-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.form-block {
+  display: flex;
+  justify-content: center;
+}
+
+.form-block button {
+  box-shadow: 3px 3px #000;
+  padding: 5px;
+  font-size: 18px;
+  width: 50px;
+  border: 2px solid #000;
+  font-weight: 300;
+  float: right;
+}
+
+#title,
+#author {
+  border: 2px solid #000;
+  height: 25px;
+  width: 270px;
+}
+
+.title-author {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  text-transform: capitalize;
+}
+
+.title-author > * {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.remove {
+  box-shadow: 3px 3px #000;
+  padding: 5px;
+  font-size: 18px;
+  border: 2px solid #000;
+  width: 102px;
+  font-weight: 700;
+}
+
+.contact {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 200px auto;
+  font-size: 18px;
+  line-height: 15px;
+}
+
+.contact > h2 {
+  text-align: center;
+  line-height: 25px;
+  font-size: 30px;
+}
+
+.contact-paragraph {
+  font-size: 18px;
+  line-height: 15px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact > p {
+  font-size: 18px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.book{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.contact-list > ul {
+  font-size: 18px;
+  list-style: none;
+  line-height: 25px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid black;
+  width: 50%;
+  margin: 25px auto;
+  padding: 10px 20px;
+}
+
+.footer > p {
+  margin-left: 0;
+  font-size: 18px;
+  letter-spacing: 1px;
+}

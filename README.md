@@ -4,18 +4,14 @@
 
 > This is the modified awesome books with ES6 and module
 
-![screenshot](./app_screenshot.png)
+![image](https://user-images.githubusercontent.com/38649067/165087789-da6a3541-58b2-49fa-bef6-3407fffc109d.png)
+
 
 ## Built With
 
 - HTML
 - CSS
 - JavaScript
-
-## Live Demo Here
-
-[Live Demo Link](https://github.com/mandelatuks/awesome-book-2-es6)
-
 
 ## Getting Started
 

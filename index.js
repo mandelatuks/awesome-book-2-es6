@@ -10,7 +10,7 @@ if (awesomeBooks.getBooks().length < 1) {
 
 const bookListSection = document.querySelector('#book-list');
 
-function renderBook() {
+const renderBook = () => {
   bookListSection.innerHTML = awesomeBooks.getBooks().map((book, index) => `
         <article class="book ${index % 2 === 0 ? 'dark' : ''}">
             <div>
@@ -20,7 +20,7 @@ function renderBook() {
             <button data-id=${book.id} class="remove">Remove</button>
             </div>
         </article>`).join('');
-}
+};
 
 renderBook();
 
